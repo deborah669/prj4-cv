@@ -3,10 +3,19 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* Styles for heading */
+
+h1 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color: brown; 
+}
+
+h2 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -14,29 +23,29 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: lightcoral;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: peachpuff;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: lightpink;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
+	content: ".";
+	font-weight: 900;
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: coral;
 }
 
 .biography-details li, .skill-list li {
