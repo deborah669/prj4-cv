@@ -3,7 +3,7 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Styles for heading */
+/* Custom style for heading */
 
 h1 { 
 font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
@@ -24,14 +24,20 @@ body {
 
 .resume-header {
     background-color: lightcoral;
+	border:2px double brown;
 }
 
 .resume-main {
 	background-color: peachpuff;
+	border:2px double brown;
+	border-top: 0px;
 }
 
 .resume-aside {
 	background-color: lightpink;
+	border:2px double brown;
+	border-top: 0px;
+	border-left: 0px;
 }
 
 /* Styles for lists in the document */
