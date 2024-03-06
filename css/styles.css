@@ -6,17 +6,16 @@
 /* Custom style for heading */
 
 h1 { 
-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-color: khaki 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: brown
 }
 
 h2 { 
-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: brown
 }
 
 h5 { 
 font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-color: black
+color: cornsilk
 }
 
 h6 { 
@@ -28,7 +27,7 @@ color: black
 
 body {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
-	color: #202030;
+	color: brown;
 	background-color: #f8f8fc;
 }
 
