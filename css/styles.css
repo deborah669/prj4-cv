@@ -6,21 +6,24 @@
 /* Custom style for heading */
 
 h1 { 
-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: black
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: brown
 }
 
 h2 { 
-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: black
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: brown
+}
+
+h4 {font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: darkred
 }
 
 h5 { 
 font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-color: brown
+color: cornsilk
 }
 
 h6 { 
 font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-color: brown
+color: darkred
 }
 
 /* Styles for the body */
@@ -51,8 +54,8 @@ body {
 	border-left: 0px;
 }
 .profile-picture { 
-	shape-inside: circle();
-	width: 90;
+	shape-margin: circle;
+	width: 100;
 	border-width: 2px;
 	border-color: brown;
 }
