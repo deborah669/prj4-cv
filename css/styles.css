@@ -7,10 +7,22 @@
 
 h1 { 
 font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-color: brown; 
+color: khaki; 
 }
 
-h2 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+h2 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+h5 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color: khaki
+}
+
+h6 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color: black
+}
 
 /* Styles for the body */
 
@@ -62,5 +74,10 @@ body {
 
 .contact-icon {
 	height: 1em;
+	flex-basis: 1.4em;
+}
+
+.skills-icon {
+	height: 2em;
 	flex-basis: 1.4em;
 }
